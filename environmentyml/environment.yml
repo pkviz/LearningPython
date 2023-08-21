@@ -1,0 +1,17 @@
+# envornment name 
+name: test_env
+
+#from where packages to install (anaconda default is conda-forge)
+channels: 
+ - conda-forge
+ - defaults
+ #- nodefaults
+
+# dependencies 
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+
+#prefix which location to install , default to base location
+#prefix:
